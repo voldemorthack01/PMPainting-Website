@@ -18,6 +18,7 @@ export default function ResidentialPaintingPage() {
                     src="/images/Gallery/project1.jpg"
                     alt="Residential Painting Sydney"
                     fill
+                    sizes="100vw"
                     className="object-cover opacity-60"
                     priority
                 />
@@ -72,6 +73,7 @@ export default function ResidentialPaintingPage() {
                             src="/images/Gallery/project4.jpg"
                             alt="Interior House Painting"
                             fill
+                            sizes="(max-width: 768px) 100vw, 50vw"
                             className="object-cover"
                         />
                     </div>

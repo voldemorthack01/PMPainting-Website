@@ -57,12 +57,13 @@ export default function ServicesPage() {
             <section className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     {services.map((service, index) => (
-                        <div key={index} className="flex flex-col rounded-2xl overflow-hidden shadow-lg border border-gray-100 group hover:shadow-xl transition-shadow">
+                        <div key={index} className="flex flex-col rounded-2xl overflow-hidden shadow-lg border border-gray-100 group hover:shadow-xl transition-shadow relative">
                             <div className="h-64 relative overflow-hidden">
                                 <Image
                                     src={service.image}
                                     alt={service.title}
                                     fill
+                                    sizes="(max-width: 768px) 100vw, 50vw"
                                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                                 />
                             </div>
@@ -72,7 +73,7 @@ export default function ServicesPage() {
                                 <p className="text-gray-600 leading-relaxed mb-6 flex-1">
                                     {service.desc}
                                 </p>
-                                <Link href={service.link} className="inline-flex items-center font-semibold text-navy-900 hover:text-gold-600">
+                                <Link href={service.link} className="inline-flex items-center font-semibold text-navy-900 hover:text-gold-600 before:absolute before:inset-0 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold-500 rounded-2xl">
                                     Learn More <ArrowRight className="ml-2 w-4 h-4" />
                                 </Link>
                             </div>
