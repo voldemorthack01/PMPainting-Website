@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { Button } from '@/components/ui/button';
+import ContactForm from '@/components/ContactForm';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -20,64 +21,7 @@ export default function ContactPage() {
                     {/* Right Side: Contact Form (Moved First) */}
                     <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-lg">
                         <h3 className="text-2xl font-bold text-navy-900 mb-6">Send us a Message</h3>
-                        <form className="space-y-6">
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                                <div className="space-y-2">
-                                    <label htmlFor="name" className="text-sm font-medium text-gray-700">Full Name</label>
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        placeholder="John Doe"
-                                        className="flex h-10 w-full text-black rounded-md border border-input bg-white px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                                    />
-                                </div>
-                                <div className="space-y-2">
-                                    <label htmlFor="phone" className="text-sm font-medium text-gray-700">Phone</label>
-                                    <input
-                                        type="tel"
-                                        id="phone"
-                                        placeholder="0400 000 000"
-                                        className="flex h-10 w-full text-black rounded-md border border-input bg-white px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                                    />
-                                </div>
-                            </div>
-
-                            <div className="space-y-2">
-                                <label htmlFor="suburb" className="text-sm font-medium text-gray-700">Suburb</label>
-                                <input
-                                    type="text"
-                                    id="suburb"
-                                    placeholder="e.g. Parramatta"
-                                    className="flex h-10 w-full text-black rounded-md border border-input bg-white px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                                />
-                            </div>
-
-                            <div className="space-y-2">
-                                <label htmlFor="service" className="text-sm font-medium text-gray-700">Service Required</label>
-                                <select
-                                    id="service"
-                                    className="flex h-10 w-full rounded-md border text-black border-input bg-white px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                                >
-                                    <option value="">Select a service...</option>
-                                    <option value="Residential">Residential Painting</option>
-                                    <option value="Commercial">Commercial Painting</option>
-                                    <option value="Roof">Roof Restoration</option>
-                                    <option value="Deck">Deck Staining</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                            </div>
-
-                            <div className="space-y-2">
-                                <label htmlFor="message" className="text-sm font-medium text-gray-700">Message</label>
-                                <textarea
-                                    id="message"
-                                    className="flex min-h-[120px] w-full text-black rounded-md border border-input bg-white px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                                    placeholder="Tell us about your project..."
-                                ></textarea>
-                            </div>
-
-                            <Button className="w-full bg-navy-900 text-white hover:bg-navy-800" size="lg">Send Message</Button>
-                        </form>
+                        <ContactForm />
                     </div>
 
                     {/* Left Side: Contact Details (Moved Second) */}

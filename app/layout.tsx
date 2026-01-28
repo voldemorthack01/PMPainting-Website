@@ -12,6 +12,10 @@ export const metadata: Metadata = {
         template: "%s | Sydney Gold Star Group",
         default: "Painters & Decorators Sydney | Residential & Commercial | Sydney Gold Star Group",
     },
+    icons: {
+        icon: '/images/Logos/logo.png', // Fallback to logo if no specific favicon.ico
+        // shortcut: '/favicon.ico', 
+    },
     description: "Professional painters and decorators in Sydney & Central Coast. Residential, Commercial, Roof Painting & Deck Staining. Licensed, Insured, and Satisfaction Guaranteed.",
     keywords: ["Painters Sydney", "Painters Central Coast", "Painters Near Me", "Commercial Painters", "House Painters", "Roof Painting Sydney", "Deck Staining", "Painting and Decoration"],
     authors: [{ name: "Sydney Gold Star Group" }],
