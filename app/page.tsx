@@ -76,22 +76,6 @@ export default function HomePage() {
                 </div>
             </section>
 
-            {/* 2. CTA BAR (Wet Paint Warning) */}
-            <div className="wet-paint-strip py-2 sm:py-3 px-4 shadow-md sticky top-20 z-40 transform transition-transform">
-                <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 text-center">
-                    <span className="bg-navy-900 text-white font-bold px-2 py-0.5 sm:px-3 sm:py-1 rounded text-[10px] sm:text-xs uppercase tracking-wider">
-                        Limited Time
-                    </span>
-                    <p className="text-navy-900 font-bold text-xs sm:text-base flex items-center justify-center gap-1 sm:gap-2 flex-wrap">
-                        <span>Free Colour Consultation with every full exterior repaint.</span>
-                        <span className="hidden sm:inline">|</span>
-                        <a href="tel:0493332306" className="underline hover:text-white transition-colors flex items-center gap-1 whitespace-nowrap">
-                            Call 0493 332 306
-                        </a>
-                    </p>
-                </div>
-            </div>
-
             {/* 3. OUR SERVICES (Grid with Icons) */}
             <section className="py-24 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
