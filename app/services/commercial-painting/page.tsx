@@ -47,7 +47,7 @@ export default function CommercialPaintingPage() {
                         <h2 className="text-3xl font-bold text-navy-900 mb-6">Strata, Office & Retail Painters</h2>
                         <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                             <p>
-                                First impressions count. Sydney Gold Star Group provides premium <strong className="text-navy-900">commercial painting and decoration</strong> services that minimize downtime and maximize impact. We serve strata managers, office fit-outs, and retail businesses from the Sydney CBD to Gosford.
+                                First impressions count. PM Painting provides premium <strong className="text-navy-900">commercial painting and decoration</strong> services that minimize downtime and maximize impact. We serve strata managers, office fit-outs, and retail businesses from the Sydney CBD to Gosford.
                             </p>
                             <p>
                                 Our team is fully licensed and insured, equipped to handle large-scale projects with strict safety compliance. We use high-performance coatings designed for high-traffic areas.

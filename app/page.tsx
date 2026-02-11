@@ -172,7 +172,7 @@ export default function HomePage() {
                     <h2 className="text-3xl font-bold text-navy-900 mb-8">Professional Painting & Decoration Services You Can Trust</h2>
                     <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
                         <p>
-                            At Sydney Gold Star Group, we understand that finding reliable <strong className="text-navy-900">commercial painting and decoration</strong> experts can be a challenge. That's why we bring over a decade of experience to every project, ensuring minimal disruption to your business while delivering a showroom finish. From the heart of Sydney to the Central Coast, and every suburb in between, our team handles it all.
+                            At PM Painting, we understand that finding reliable <strong className="text-navy-900">commercial painting and decoration</strong> experts can be a challenge. That's why we bring over a decade of experience to every project, ensuring minimal disruption to your business while delivering a showroom finish. From the heart of Sydney to the Central Coast, and every suburb in between, our team handles it all.
                         </p>
                         <p>
                             For homeowners, we are the trusted <strong className="text-navy-900">painters near you</strong> that residents rely on for total transformation. From colour consultation to the final coat, we ensure your home is treated with the utmost care. We provide comprehensive services across the entire region, ensuring quality finishes for every local suburb.

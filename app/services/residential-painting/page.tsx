@@ -5,7 +5,7 @@ import Link from "next/link";
 import { CheckCircle2, Star } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Residential Painting & Decoration Sydney | Sydney Gold Star Group",
+    title: "Residential Painting & Decoration Sydney | PM Painting",
     description: "Expert residential painters and decorators in Sydney & Central Coast. Interior and exterior house painting services. Call 0493 332 306 for a free quote.",
 };
 
@@ -48,7 +48,7 @@ export default function ResidentialPaintingPage() {
                         <h2 className="text-3xl font-bold text-navy-900 mb-6">Expert House Painters Near You</h2>
                         <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                             <p>
-                                Your home is your sanctuary, and at Sydney Gold Star Group, we treat it with the respect it deserves. We provide comprehensive <strong className="text-navy-900">painting and decoration services</strong> for interiors and exteriors across Sydney, the Central Coast, and all suburbs in between.
+                                Your home is your sanctuary, and at PM Painting, we treat it with the respect it deserves. We provide comprehensive <strong className="text-navy-900">painting and decoration services</strong> for interiors and exteriors across Sydney, the Central Coast, and all suburbs in between.
                             </p>
                             <p>
                                 Whether you need to freshen up a single room or completely transform your property's façade, our team of licensed professionals delivers a flawless finish using high-quality, durable paints.

@@ -26,12 +26,12 @@ export default function Navbar() {
                     <div className="flex items-center">
                         <Link href="/" className="flex-shrink-0 flex items-center group">
                             {/* Logo Placeholder */}
-                            <div className="relative h-12 w-12 mr-3 transition-transform group-hover:scale-105">
-                                <Image src="/images/Logos/logo.png" alt="Sydney Gold Star Group Logo" fill className="object-contain" />
+                            <div className="relative h-20 w-20 mr-5 transition-transform group-hover:scale-105">
+                                <Image src="/images/Logos/Logo-V4.png" alt="PM Painting Logo" fill className="object-contain" />
                             </div>
                             <div className="flex flex-col">
-                                <span className="font-bold text-xl text-white tracking-tight group-hover:text-gold-400 transition-colors">Sydney Gold Star</span>
-                                <span className="text-[10px] text-gold-500 font-bold tracking-[0.2em] uppercase">Group Pty Ltd</span>
+                                <span className="font-bold text-xl text-gold-400 tracking-tight transition-colors">PM PAINTING</span>
+                                <span className="text-[10px] text-gray-400 font-bold tracking-[0.2em] uppercase">PAINT. MAINTAIN.</span>
                             </div>
                         </Link>
                     </div>

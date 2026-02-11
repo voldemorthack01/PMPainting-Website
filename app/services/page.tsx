@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { CheckCircle2, Shield, Palette, Clock, Award, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-    title: 'Painting Services | Residential, Commercial & Strata | Sydney Gold Star',
+    title: 'Painting Services | Residential, Commercial & Strata | PM Painting',
     description: 'Full range of painting services: Interior, Exterior, Commercial, Roof Restoration, and Deck Maintenance used premium paints.',
 }
 
@@ -86,7 +86,7 @@ export default function ServicesPage() {
             <section className="bg-gray-50 py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
-                        <h2 className="text-3xl font-bold text-navy-900">Why Choose Sydney Gold Star?</h2>
+                        <h2 className="text-3xl font-bold text-navy-900">Why Choose PM Painting?</h2>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

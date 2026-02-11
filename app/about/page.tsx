@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { CheckCircle, Award, Users, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-    title: 'About Sydney Gold Star Group | Professional Painters Sydney',
+    title: 'About PM Painting | Professional Painters Sydney',
     description: 'Learn about our family legacy, 10+ years of experience, and commitment to quality painting services in Sydney.',
 }
 
@@ -28,7 +28,7 @@ export default function AboutPage() {
                         <div className="absolute inset-0 bg-navy-100 flex items-center justify-center text-navy-300">
                             <Image
                                 src="/images/Gallery/project1.jpg" // Fallback to a project image if specific about image missing
-                                alt="Sydney Gold Star Team"
+                                alt="PM Painting Team"
                                 width={800}
                                 height={800}
                                 className="object-cover w-full h-full"
@@ -41,7 +41,7 @@ export default function AboutPage() {
 
                         <div className="prose prose-lg text-gray-600 leading-relaxed space-y-4">
                             <p>
-                                At Sydney Gold Star Group, <strong>Painting and Decoration</strong> is more than a trade—it’s a family legacy.
+                                At PM Painting, <strong>Painting and Decoration</strong> is more than a trade—it’s a family legacy.
                                 Founded on the principles of honesty, precision, and hard work, we have grown from a local
                                 father-and-son team into one of Sydney’s most trusted painting groups.
                             </p>

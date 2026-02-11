@@ -4,8 +4,8 @@ import ContactForm from '@/components/ContactForm';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'Contact Us | Sydney Gold Star Group - Painters Sydney',
-    description: 'Contact Sydney Gold Star Group for a free painting quote. Call 0493 332 306. Serving Sydney, Penrith, Central Coast, and Parramatta.',
+    title: 'Contact Us | PM Painting - Painters Sydney',
+    description: 'Contact PM Painting for a free painting quote. Call 0493 332 306. Serving Sydney, Penrith, Central Coast, and Parramatta.',
 };
 
 export default function ContactPage() {
@@ -29,7 +29,7 @@ export default function ContactPage() {
                         <div>
                             <h2 className="text-2xl font-bold text-navy-900 mb-6">Get in Touch</h2>
                             <p className="text-gray-600 leading-relaxed mb-8">
-                                Ready to transform your space? Contact Sydney Gold Star Group today for a free, no-obligation quote.
+                                Ready to transform your space? Contact PM Painting today for a free, no-obligation quote.
                                 We respond to all inquiries within 24 hours.
                             </p>
                         </div>

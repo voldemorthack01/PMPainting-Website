@@ -1,6 +1,6 @@
-# Sydney Gold Star Group Website
+# PM Painting Website
 
-A high-performance, SEO-optimized website for Sydney Gold Star Group Pty Ltd, built with Next.js 14 and Tailwind CSS.
+A high-performance, SEO-optimized website for PM Painting, built with Next.js 14 and Tailwind CSS.
 
 ## 🚀 Tech Stack
 

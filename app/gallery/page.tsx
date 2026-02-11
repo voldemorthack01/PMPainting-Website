@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
 export const metadata: Metadata = {
-    title: 'Project Gallery | Sydney Gold Star Group',
+    title: 'Project Gallery | PM Painting - Painters Sydney',
     description: 'View our recent residential and commercial painting projects in Sydney and Central Coast.',
 }
 
